@@ -1,0 +1,26 @@
+:root {
+  --body-bg: #0E0E23;
+  --msger-bg: #fff;
+  --border: 2px solid #ddd;
+  --left-msg-bg: #ececec;
+  --right-msg-bg: #579ffb;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+
+  padding: 20px;
+  background: var(--body-bg);
+  font-family: Helvetica, sans-serif;
+}
